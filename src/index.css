@@ -1,0 +1,134 @@
+*{
+  margin: 15px;
+  font-size: 20px;
+}
+
+.body-container{
+  width: 70%;
+  margin-left: 15%;
+  background-color: rgb(50, 218, 255);
+  padding-bottom: 50px;
+  padding-top: 20px;
+  
+}
+
+.length-div{
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  padding-right: 18%;
+}
+
+.list-div{
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20%;
+}
+
+h1{
+  
+  text-align: center;
+  font-size: 30px;
+}
+
+.head-line{
+  border-color: black;
+  background-color: #46ff21;
+}
+
+h2{
+  margin: 40px 40px 0px;
+  text-align: center;
+}
+
+input[type="text" i] {
+  padding: 10px 35px;
+  font-size: 15px;
+}
+
+input::placeholder{
+  font-size: 15px;
+}
+
+form{
+  text-align: center;
+}
+
+form button{
+  margin: 0px;
+  padding: 6px 15px;
+  border: none;
+  border-radius: 6px;
+}
+
+form button:enabled{
+  color: white;
+  background-color: #88d453;
+}
+
+form button:hover:enabled{
+  background-color: #4ede0b;
+}
+
+.filterbutton{
+  text-align: center;
+}
+
+.filterbutton button {
+  padding: 12px 65px;
+  background-color: white;
+}
+
+.filterbutton button:hover{
+  background-color: #46ff21;
+  color: white;
+}
+
+div button{
+  display: inline-block;
+  justify-content: center;
+}
+
+button[aria-pressed="true"] {
+  text-decoration: underline;
+  color: white;
+  background-color: #7e5252;
+}
+
+label[for="list"]{
+  margin-left: 140px;
+}
+
+ul{
+  margin-left: 140px;
+  list-style-type: none;
+}
+
+#list-button button{
+  margin: 0%;
+  margin-right: 8px;
+  padding: 6px 15px;
+}
+
+.btn-del:hover{
+  background-color: #eb4034;
+  color: white;
+}
+
+.btn-save:hover{
+  color: white;
+  background-color: #4ede0b;
+  border: none;
+}
+
+.btn-edit:hover, .btn-cancel:hover{
+  background-color: rgb(39, 255, 85);
+}
+
+.Add-Button{
+  background-color: #4ede0b;
+  border: #7e5252;
+}
+
